@@ -1,13 +1,18 @@
 {
-  "name": "mirai-labo-bots",
-  "version": "1.0.0",
-  "description": "未来キャリアLABO × クロスノクティス連携Bot",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
   "dependencies": {
-    "@line/bot-sdk": "^7.5.0",
-    "express": "^4.18.2"
-  }
+    "@line/bot-sdk": "^9.8.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "openai": "^4.95.1"
+  },
+  "name": "wakana-bot",
+  "version": "1.0.0",
+  "main": "line-template-fixed.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
